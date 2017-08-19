@@ -19,6 +19,12 @@ a {
 }
 
 /* HEADER STYLES */
+.header {
+  background-color: #aaa;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
@@ -48,6 +54,13 @@ a {
 }
 .header-nav > li:first-child a:hover {
   color: #000;
+}
+.header-logo {
+  background-color: #000;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .header-nav > li ~ li {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
