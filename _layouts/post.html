@@ -12,11 +12,11 @@ layout: default
         <img src="{{ page.gravatar }}" >
         <a href="{{ page.authorTwitter }}" class="social-link" >Tw</a>
         by: {{ page.author }}
-        <span> - {{ page.date | date: '%B %d, %Y's }}</span>
+        <span> - {{ page.date | date: '%B %d, %Y' }}</span>
       </div>
     </header>
     <aside class="post-aside" >
-      {% include recent-posts.html %} 
+      {% include recent-posts.html %}
     </aside>
     <div class="post-content" >
       {{ content }}
