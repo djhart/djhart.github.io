@@ -600,6 +600,7 @@ p {
   .header-nav {
     background-color: #444;
     box-sizing: border-box;
+    display: none;
     left: 0;
     max-height: 0;
     overflow: hidden;
@@ -635,11 +636,12 @@ p {
   }
   .mobile-menu-check:checked ~ .header-nav {
     max-height: 1000px;
+    display: block;
   }
   .mobile-menu-check:checked ~ .show-mobile-menu:after {
     background-color: #000;
     color: #ed6e2f;
-    content: "X";
+    content: "CLOSE";
     left: 0;
     position: absolute;
     top: 1.5em;
