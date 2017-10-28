@@ -1,6 +1,7 @@
 ---
 layout: post
 title: This is the title of the post
+description: look at this description -- llooookk
 postHero: /images/shark.jpg
 author: me, myself, I
 authorTwitter: http:twitter.com/mhartl
